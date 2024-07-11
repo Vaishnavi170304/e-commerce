@@ -39,9 +39,9 @@ body{
 }
 
 #menu a:hover{
-    color: blueviolet;
-    border-bottom: 2px solid blueviolet;
-    border-top: 2px solid blueviolet;
+    color:  rgb(228, 94, 210);
+    border-bottom: 2px solid  rgb(228, 94, 210);
+    border-top: 2px solid  rgb(228, 94, 210);
 }
 
 .navbar-container{
