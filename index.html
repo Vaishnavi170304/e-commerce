@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/fashion-store-logo-design.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="img/fashion-store-logo-design.jpg" alt="fs-logo">
+            </a>
+            <h3>Fashion Store</h3>
+            <div class="nav-toggle" id="menu-toggle"><i class="fas fa-bars"></i>
+                <div class="nav-menu popup" id="menu">
+                    <span class="close">&times;</span>
+                    <ul class="nav-list">
+                        <li><a href="#women">Women</a></li>
+                        <li><a href="#men">Men</a></li>
+                        <li><a href="#kids">Kids</a></li>
+                    </ul>            
+                </div>
+            </div>
+            <div class="nav-menu" id="menu">
+                <a href="#women">Women</a>
+                <a href="#men">Men</a>                            
+                <a href="#kids">Kids</a>
+            </div>
+            <div class="icon">
+                <input type="text" name="query" placeholder="Search..." class="search" id="search">
+                <button type="submit" class="search"><i class="fas fa-search"></i></button>
+                <a><i class="fa-regular fa-user" id="user"></i></a>
+                <a><i class="fa-regular fa-heart"></i></a>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="profile" class="userid">
+        <span class="close">&times;</span>
+        <h2>Sign in</h2>
+        <form action="" method="post" class="signin">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <label for="password">Password :</label>
+            <input type="password" name="password" id="password" placeholder="Password"><br><br>
+            <button type="submit">Sign in</button>
+            <p>or</p>
+            <button type="submit">Sign up</button>
+        </form>
+    </div>
+     
+    <h2 style="text-align: center; color: blueviolet;">Choose by Categorys</h2>
+
+    <div id="category">
+            <div class="type-content">
+                <img src="img/ethnic-saree.jpg" alt="">
+                <p>Ethnic Saree</p>
+            </div>
+            <div class="type-content">
+                <img src="img/ethnic-wear.webp" alt="">
+                <p>Ethnic wear</p>
+            </div>
+            <div class="type-content">
+                <img src="img/women-formal.jpg" alt="">
+                <p>Ethnic Saree</p>
+            </div>
+            <div class="type-content">
+                <img src="img/ethnic-men.avif" alt="">
+                <p>Men's Ethnic</p>
+            </div>
+            <div class="type-content">
+                <img src="img/kids-ethnic.jpg" alt="">
+                <p>Kid's Ethnic</p>
+            </div>
+    </div>
+
+    <div id="category">
+        <div class="type-content">
+            <img src="img/men-formal.jpg" alt="">
+            <p>Men's Formal</p>
+        </div>
+        <div class="type-content">
+            <img src="img/kids-formal.jpeg" alt="">
+            <p>Kids formal wear</p>
+        </div>
+        <div class="type-content">
+            <img src="img/nightwear-kids.jpg" alt="">
+            <p>Kids night wear</p>
+        </div>
+        <div class="type-content">
+            <img src="img/western-wear.jpg" alt="">
+            <p>Western wear</p>
+        </div>
+        <div class="type-content">
+            <img src="img/casual-men.jpg" alt="">
+            <p>Men's casual</p>
+        </div>
+    </div>
+
+    <div id="slider">
+        <div class="slides">
+            <div class="slide">
+                <img src="img/slider1.avif" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slider3.avif" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slider2.avif" alt="">
+            </div>
+            <div class="slide">
+                <img src="img/slider4.avif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="women">
+        <h2 style="text-align: center; color: blueviolet;">Upgrade your wardbord girls</h2>
+        <div id="category">
+            <div class="type-content">
+                <img src="img/saree.jpg" alt="">
+                <p>Saree</p>                
+            </div>
+            <div class="type-content">
+                <img src="img/anarkali.jpg" alt="">
+                <p>Anarkali</p>
+            </div>
+            <div class="type-content">
+                <img src="img/co-order.jpg" alt="">
+                <p>Co-order set</p>
+            </div>
+            <div class="type-content">
+                <img src="img/crop-tops.jpeg" alt="">
+                <p>Crop Tops</p>
+            </div>
+            <div class="type-content">
+                <img src="img/trousers.jpg" alt="">
+                <p>Trousers</p>
+            </div>
+        </div>
+
+        <div id="category">
+            <div class="type-content">
+                <img src="img/dress.webp" alt="">
+                <p>Dress</p>
+            </div>
+            <div class="type-content">
+                <img src="img/jeans.jpg" alt="">
+                <p>Jeans</p>
+            </div>
+            <div class="type-content">
+                <img src="img/jacket.jpg" alt="">
+                <p>Jacket</p>
+            </div>
+            <div class="type-content">
+                <img src="img/kurta-set.jpg" alt="">
+                <p>Kurta Set</p>
+            </div>
+            <div class="type-content">
+                <img src="img/kurta.jpg" alt="">
+                <p>Kurta</p>
+            </div>
+        </div>
+
+        <div id="category">
+            <div class="type-content">
+                <img src="img/short-kurta.webp" alt="">
+                <p>Short Kurta</p>
+            </div>
+            <div class="type-content">
+                <img src="img/lenga.webp" alt="">
+                <p>Lehenga</p>
+            </div>
+            <div class="type-content">
+                <img src="img/party.webp" alt="">
+                <p>Party Wear</p>
+            </div>
+            <div class="type-content">
+                <img src="img/skirt.webp" alt="">
+                <p>Skirt</p>
+            </div>
+            <div class="type-content">
+                <img src="img/legging.webp" alt="">
+                <p>Leggings</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="men">
+        <h2 style="text-align: center; color: blueviolet;">Mens Outfit</h2>
+        <div id="category">
+            <div class="type-content">
+                <img src="img/kurta-men.jpg" alt="">
+                <p>Kurta for mens</p>                
+            </div>
+            <div class="type-content">
+                <img src="img/popcorn-shirts.webp" alt="">
+                <p>popcorn-shirts</p>
+            </div>
+            <div class="type-content">
+                <img src="img/shirt.jpg" alt="">
+                <p>Shirts</p>
+            </div>
+            <div class="type-content">
+                <img src="img/jeans-men.jpg" alt="">
+                <p>Jeans</p>
+            </div>
+            <div class="type-content">
+                <img src="img/t-shirts.jpg" alt="">
+                <p>T-Shirts</p>
+            </div>
+        </div>
+
+        <div id="category">
+            <div class="type-content">
+                <img src="img/track-pants.jpeg" alt="">
+                <p>Track Pants</p>
+            </div>
+            <div class="type-content">
+                <img src="img/sweatshirts.avif" alt="">
+                <p>Sweatshirts</p>
+            </div>
+            <div class="type-content">
+                <img src="img/formal.jpg" alt="">
+                <p>Foramls</p>
+            </div>
+            <div class="type-content">
+                <img src="img/baggy.jpg" alt="">
+                <p>Baggy outfits</p>
+            </div>
+            <div class="type-content">
+                <img src="img/shorts.jpg" alt="">
+                <p>Shorts</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="kids">
+        <h2 style="text-align: center; color: blueviolet;">Kids Collection</h2>
+        <div id="category">
+            <div class="type-content">
+                <img src="img/ethnic-kids.jpg" alt="">
+                <p>Kids ethnic wear</p>                
+            </div>
+            <div class="type-content">
+                <img src="img/gown.jpg" alt="">
+                <p>Gown</p>
+            </div>
+            <div class="type-content">
+                <img src="img/lehanga.jpg" alt="">
+                <p>Lehenga</p>
+            </div>
+            <div class="type-content">
+                <img src="img/shirt-kids.jpg" alt="">
+                <p>Kids shirt</p>
+            </div>
+            <div class="type-content">
+                <img src="img/outfit.jpg" alt="">
+                <p>Kids co-order</p>
+            </div>
+        </div>
+
+        <div id="category">
+            <div class="type-content">
+                <img src="img/kids-ts.jpg" alt="">
+                <p>Kids tshirts</p>
+            </div>
+            <div class="type-content">
+                <img src="img/formal-kids.jpg" alt="">
+                <p>Kids formals</p>
+            </div>
+            <div class="type-content">
+                <img src="img/kids-fashion.jpg" alt="">
+                <p>Kids Fashion</p>
+            </div>
+            <div class="type-content">
+                <img src="img/kids-nightwear.jpg" alt="">
+                <p>Kids night wear</p>
+            </div>
+            <div class="type-content">
+                <img src="img/summer-wear.jpeg" alt="">
+                <p>Summer wear</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fashion Store</p>
+    </footer>
+</body>
+</html>
